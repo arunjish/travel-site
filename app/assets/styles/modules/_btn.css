@@ -8,4 +8,11 @@
   &--orange {
     background-color: $mainOrange;
   }
+  &large {
+    font-size: 1rem;
+    padding: 1.1rem 1.9rem;
+    @mixin atSmall {
+      font-size: 1.25rem;
+    }
+  }
 }
